@@ -18,28 +18,32 @@ export function AIHeroSection() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 border border-border mb-6"
           >
             <Bot className="w-4 h-4 text-primary" />
-            <span className="text-sm text-muted-foreground">AI-Powered Creativity</span>
+            <span className="text-sm text-muted-foreground">
+              AI-Powered Creativity
+            </span>
           </motion.div>
 
+          {/* SHORT H1 */}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-balance"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
           >
-            <span className="text-primary">AI Creative Services</span>{" "}
-            <span className="text-foreground">in Uttarakhand</span>
+            <span className="text-primary">AI Services</span>
           </motion.h1>
 
+          {/* SEO + GEO paragraph */}
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground max-w-3xl mb-8 leading-relaxed"
           >
-            Experience the future of creative services. I combine human creativity with cutting-edge AI technology to
-            deliver faster turnarounds, better quality, and more value for businesses and creators in Rishikesh,
-            Dehradun, and across Uttarakhand.
+            Professional AI creative services in Rishikesh and Dehradun,
+            combining human creativity with advanced AI tools to deliver
+            high-quality graphic design, video editing, reels, ads, and
+            branding for businesses and creators across Uttarakhand.
           </motion.p>
 
           <motion.div
@@ -53,15 +57,16 @@ export function AIHeroSection() {
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
             >
               <Sparkles className="w-5 h-5" />
-              Experience AI Creativity
+              Get Started
             </Link>
+
             <a
-              href="https://wa.me/916398828373?text=Hi%2C%20I%27m%20interested%20in%20AI%20creative%20services."
+              href="https://wa.me/916398828373?text=Hi%20Vikas%20Ramola%2C%20I%27m%20interested%20in%20AI%20creative%20services."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-green-500 text-white rounded-lg font-semibold hover:bg-green-600 transition-colors"
             >
-              Chat on WhatsApp
+              WhatsApp
             </a>
           </motion.div>
         </div>

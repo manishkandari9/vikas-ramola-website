@@ -84,7 +84,7 @@ export function VideoProjectsSection() {
             >
               <img
                 src={project.thumbnail || "/placeholder.svg"}
-                alt={`${project.title} - Video editing project by Vikash Chand`}
+                alt={`${project.title} - Video editing project by Vikash Ramola`}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />

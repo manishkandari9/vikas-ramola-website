@@ -7,19 +7,32 @@ import { AboutSkillsSection } from "@/components/about-page/skills-section"
 import { AboutCtaSection } from "@/components/about-page/cta-section"
 
 export const metadata: Metadata = {
-  title: "About Vikash Chand | AI Creative Expert in Rishikesh & Dehradun",
+  title: "About Vikas Ramola | Graphic Designer & Video Editor in Rishikesh",
   description:
-    "Learn about Vikash Chand - AI-powered Graphic Designer and Video Editor based in Rishikesh and Dehradun, Uttarakhand. Professional creative services with 5+ years of experience.",
+    "Learn about Vikas Ramola, a professional graphic designer and video editor in Rishikesh & Dehradun, India. With 5+ years of experience, he delivers branding, reels, ads, video editing, and AI-powered creative services for businesses and creators.",
+  keywords: [
+    "Vikas Ramola",
+    "graphic designer in rishikesh",
+    "video editor in rishikesh",
+    "graphic designer in dehradun",
+    "video editor in dehradun",
+    "ai graphic designer india",
+    "ai video editor india",
+  ],
   alternates: {
-    canonical: "/about-vikash-chand",
+    canonical: "https://vikashramolavdo.studio/about-vikas-ramola",
   },
   openGraph: {
-    title: "About Vikash Chand | AI Creative Expert",
+    title: "About Vikas Ramola | Graphic Designer & Video Editor",
     description:
-      "AI-powered Graphic Designer and Video Editor based in Rishikesh and Dehradun with 5+ years of experience.",
-    url: "/about-vikash-chand",
+      "Vikas Ramola is a professional graphic designer and video editor based in Rishikesh & Dehradun, India, specializing in branding, reels, ads, and AI-powered creative services.",
+    url: "https://vikashramolavdo.studio/about-vikas-ramola",
+    siteName: "Vikas Ramola Creative Studio",
+    locale: "en_IN",
+    type: "profile",
   },
 }
+
 
 export default function AboutPage() {
   return (
@@ -35,5 +48,5 @@ export default function AboutPage() {
         <AboutCtaSection />
       </main>
     </>
-  )
+  ) 
 }

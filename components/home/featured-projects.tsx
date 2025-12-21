@@ -69,7 +69,7 @@ export function HomeFeaturedProjects() {
             >
               <img
                 src={project.image || "/placeholder.svg"}
-                alt={`${project.title} - ${project.category} by Vikash Chand`}
+                alt={`${project.title} - ${project.category} by Vikash Ramola`}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />

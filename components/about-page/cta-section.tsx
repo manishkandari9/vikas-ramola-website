@@ -19,14 +19,21 @@ export function AboutCtaSection() {
           transition={{ duration: 0.6 }}
           className="max-w-3xl mx-auto text-center"
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance">Let&apos;s Work Together</h2>
+          {/* SHORT HEADING */}
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Work With Me
+          </h2>
+
+          {/* SEO + GEO paragraph */}
           <p className="text-lg text-muted-foreground mb-10">
-            Ready to bring your creative vision to life? I&apos;d love to hear about your project and discuss how I can
-            help you achieve your goals.
+            Looking for a graphic designer or video editor in Rishikesh or
+            Dehradun? Vikas Ramola helps businesses and creators with branding,
+            reels, ads, video editing, and AI-powered creative services.
           </p>
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <motion.a
-              href="https://wa.me/916398828373?text=Hi%20Vikash%2C%20I%27d%20like%20to%20discuss%20a%20project%20with%20you."
+              href="https://wa.me/916398828373?text=Hi%20Vikas%20Ramola%2C%20I%27d%20like%20to%20discuss%20a%20project."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-8 py-4 bg-green-500 text-white rounded-lg font-semibold hover:bg-green-600 transition-colors"
@@ -34,15 +41,16 @@ export function AboutCtaSection() {
               whileTap={{ scale: 0.98 }}
             >
               <MessageCircle className="w-5 h-5" />
-              Chat on WhatsApp
+              WhatsApp
             </motion.a>
+
             <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
               <Link
                 href="/contact"
                 className="flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
               >
                 <Sparkles className="w-5 h-5" />
-                Contact Me
+                Free Quote
               </Link>
             </motion.div>
           </div>

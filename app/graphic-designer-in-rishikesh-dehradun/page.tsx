@@ -8,25 +8,49 @@ import { GraphicFaqSection } from "@/components/graphic-page/faq-section"
 import { GraphicCtaSection } from "@/components/graphic-page/cta-section"
 
 export const metadata: Metadata = {
-  title: "Graphic Designer in Rishikesh & Dehradun | AI Graphic Design Services",
+  title: "Graphic Designer in Rishikesh | Logo, Branding & Social Media Design",
   description:
-    "Looking for a professional Graphic Designer in Rishikesh or Dehradun? Vikash Chand offers AI-powered graphic design services for social media, branding, posters, and more. Creative designs that stand out.",
+    "Looking for the best graphic designer in Rishikesh or Dehradun? Vikas Ramola provides professional logo design, branding, social media creatives, posters, banners, and AI-powered graphic design services for businesses and creators.",
   keywords: [
-    "Graphic Designer in Rishikesh",
-    "Graphic Designer in Dehradun",
-    "AI Graphic Designer Rishikesh",
-    "Social Media Designer Dehradun",
-    "Logo Design Rishikesh",
-    "Poster Design Uttarakhand",
+    // Core Graphic Design
+    "graphic designer in rishikesh",
+    "graphic designer in dehradun",
+    "best graphic designer in rishikesh",
+    "professional graphic designer rishikesh",
+    "freelance graphic designer rishikesh",
+
+    // Logo & Branding
+    "logo designer in rishikesh",
+    "branding designer in rishikesh",
+    "logo design services dehradun",
+
+    // Social Media Design
+    "social media graphic designer rishikesh",
+    "instagram post designer dehradun",
+    "reel editor in rishikesh",
+
+    // Business & Ads
+    "ad creative designer rishikesh",
+    "poster designer in rishikesh",
+    "banner design services dehradun",
+
+    // Near Me / Local Intent
+    "best graphic designer near me",
+    "graphic designer near me",
+    "graphic design services near me",
+    "video editor near me",
   ],
   alternates: {
-    canonical: "/graphic-designer-in-rishikesh-dehradun",
+    canonical: "https://vikashramolavdo.studio/graphic-designer-in-rishikesh-dehradun",
   },
   openGraph: {
-    title: "Graphic Designer in Rishikesh & Dehradun | AI Graphic Design Services",
+    title: "Graphic Designer in Rishikesh & Dehradun | Vikas Ramola",
     description:
-      "Professional AI-powered graphic design services in Rishikesh and Dehradun. Social media, branding, posters & more.",
-    url: "/graphic-designer-in-rishikesh-dehradun",
+      "Professional graphic design services in Rishikesh and Dehradun including logo design, branding, social media creatives, posters, and AI-powered graphic design.",
+    url: "https://vikashramolavdo.studio/graphic-designer-in-rishikesh-dehradun",
+    siteName: "Vikas Ramola Creative Studio",
+    locale: "en_IN",
+    type: "website",
   },
 }
 

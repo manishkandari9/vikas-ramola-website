@@ -9,27 +9,27 @@ const faqs = [
   {
     question: "What is AI video editing?",
     answer:
-      "AI video editing uses artificial intelligence tools to enhance video quality, automate repetitive tasks, improve color grading, and create engaging content faster. It combines human creativity with machine efficiency to deliver superior results in less time.",
+      "AI video editing uses artificial intelligence to enhance video quality, automate repetitive tasks, improve color grading, and speed up editing. Vikas Ramola combines AI tools with human creativity to deliver professional video editing services in Rishikesh and Dehradun.",
   },
   {
-    question: "Is AI-based editing better for social media?",
+    question: "Is AI-based editing good for social media?",
     answer:
-      "AI-based editing is highly effective for social media content. It helps optimize videos for platform algorithms, creates engaging captions automatically, enhances visual quality, and ensures faster turnarounds crucial for maintaining a consistent social media presence.",
+      "Yes, AI-based editing is highly effective for social media. It helps optimize videos for Instagram, YouTube, and reels, improves engagement, and ensures faster turnaround—ideal for businesses and creators in Rishikesh and Dehradun.",
   },
   {
     question: "Will AI replace human creativity?",
     answer:
-      "No, AI enhances human creativity rather than replacing it. While AI handles technical tasks like color correction and audio enhancement, the creative vision, storytelling, and brand alignment remain human-driven. The best results come from combining both.",
+      "No. AI enhances human creativity but does not replace it. Creative direction, storytelling, and brand understanding remain human-led, while AI supports tasks like color correction and audio enhancement for better results.",
   },
   {
-    question: "How much faster is AI-powered creative work?",
+    question: "How fast is AI-powered creative work?",
     answer:
-      "AI tools typically accelerate project delivery by 50-100%. Tasks that traditionally took days can be completed in hours, without compromising on quality. This means faster turnarounds and better value for clients.",
+      "AI-powered workflows can reduce turnaround time by 50–100%. Projects that usually take days can often be delivered in hours without compromising on quality.",
   },
   {
-    question: "Are AI creative services more expensive?",
+    question: "Are AI creative services expensive?",
     answer:
-      "Actually, AI creative services often provide better value. The efficiency gains from AI translate to competitive pricing while maintaining or even improving quality. You get premium results without premium pricing.",
+      "AI creative services often provide better value. Faster workflows reduce costs while maintaining high-quality output, making professional graphic design and video editing more affordable.",
   },
 ]
 
@@ -47,9 +47,19 @@ export function AIFaqSection() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <span className="text-primary text-sm font-medium uppercase tracking-wider">FAQ</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4 text-balance">AI Creative Services Questions</h2>
-            <p className="text-muted-foreground text-pretty">Common questions about AI-powered creative services.</p>
+            <span className="text-primary text-sm font-medium uppercase tracking-wider">
+              FAQ
+            </span>
+
+            {/* SHORT H2 */}
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
+              Common Questions
+            </h2>
+
+            {/* AEO helper line */}
+            <p className="text-muted-foreground text-pretty">
+              Answers about AI-powered graphic design and video editing services.
+            </p>
           </motion.div>
 
           <motion.div

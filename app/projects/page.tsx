@@ -6,18 +6,46 @@ import { ProjectsGallery } from "@/components/projects-page/gallery"
 import { ProjectsCtaSection } from "@/components/projects-page/cta-section"
 
 export const metadata: Metadata = {
-  title: "Projects | Video Editing & Graphic Design Portfolio",
+  title: "Graphic Design & Video Editing Projects in Rishikesh | Portfolio",
   description:
-    "Browse the portfolio of Vikash Chand - Professional video editing and graphic design projects for businesses and creators in Rishikesh, Dehradun, and Uttarakhand.",
+    "Explore graphic design and video editing projects by Vikas Ramola, a professional graphic designer and video editor in Rishikesh & Dehradun, India. Real client work including branding, reels, ads, social media, and business videos.",
+  keywords: [
+    // Core portfolio intent
+    "graphic design portfolio rishikesh",
+    "video editing portfolio dehradun",
+    "graphic designer projects rishikesh",
+    "video editor projects dehradun",
+
+    // Service + location
+    "logo design projects rishikesh",
+    "branding design portfolio india",
+    "social media design projects dehradun",
+    "reel editing projects rishikesh",
+
+    // India + near me
+    "video editing portfolio india",
+    "graphic design portfolio near me",
+  ],
   alternates: {
-    canonical: "/projects",
+    canonical: "https://vikashramolavdo.studio/projects",
   },
   openGraph: {
-    title: "Projects | Vikash Chand Creative Portfolio",
-    description: "Video editing and graphic design portfolio showcasing work for businesses in Rishikesh and Dehradun.",
-    url: "/projects",
+    title: "Projects & Portfolio | Graphic Designer & Video Editor in Rishikesh",
+    description:
+      "View real graphic design and video editing projects by Vikas Ramola. Branding, reels, ads, and social media work for businesses in Rishikesh, Dehradun & India.",
+    url: "https://vikashramolavdo.studio/projects",
+    siteName: "Vikas Ramola Creative Studio",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Graphic Design & Video Editing Portfolio | Vikas Ramola",
+    description:
+      "Real client projects showcasing graphic design, branding, reels, and video editing work in Rishikesh, Dehradun & India.",
   },
 }
+
 
 export default function ProjectsPage() {
   return (

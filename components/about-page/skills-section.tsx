@@ -5,16 +5,34 @@ import { useInView } from "framer-motion"
 import { useRef } from "react"
 
 const skills = {
-  "Video Editing": ["Adobe Premiere Pro", "After Effects", "DaVinci Resolve", "CapCut", "Motion Graphics"],
-  "Graphic Design": ["Adobe Photoshop", "Adobe Illustrator", "Canva", "Figma", "Brand Design"],
-  "AI Tools": [
+  "Video Editing Skills": [
+    "Adobe Premiere Pro",
+    "After Effects",
+    "DaVinci Resolve",
+    "CapCut",
+    "Motion Graphics & Transitions",
+  ],
+  "Graphic Design Skills": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Canva",
+    "Figma",
+    "Brand Identity Design",
+  ],
+  "AI-Powered Creative Tools": [
     "AI Video Enhancement",
     "AI Image Generation",
-    "AI Prompting",
+    "AI Prompt Engineering",
     "AI Color Grading",
     "AI Audio Enhancement",
   ],
-  "Content Types": ["YouTube Videos", "Instagram Reels", "Podcasts", "Social Media", "Marketing Content"],
+  "Content I Create": [
+    "YouTube Video Editing",
+    "Instagram Reels & Shorts",
+    "Podcast Video Editing",
+    "Social Media Creatives",
+    "Marketing & Ad Content",
+  ],
 }
 
 export function AboutSkillsSection() {
@@ -30,10 +48,22 @@ export function AboutSkillsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-primary text-sm font-medium uppercase tracking-wider">Expertise</span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-2 mb-4 text-balance">Skills & Tools</h2>
+          <span className="text-primary text-sm font-medium uppercase tracking-wider">
+            Professional Expertise
+          </span>
+
+          {/* SEO STRONG H2 */}
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-2 mb-4 text-balance">
+            Graphic Design & Video Editing Skills by Vikas Ramola
+          </h2>
+
+          {/* AEO + GEO paragraph */}
           <p className="text-muted-foreground max-w-2xl mx-auto text-pretty">
-            A comprehensive skill set combining traditional creative expertise with modern AI-powered tools.
+            As a professional graphic designer and video editor in Rishikesh,
+            I use industry-leading design software and AI-powered tools to
+            create high-quality branding, videos, reels, and digital content
+            for businesses, creators, and brands across Rishikesh, Dehradun,
+            and India.
           </p>
         </motion.div>
 
@@ -46,10 +76,16 @@ export function AboutSkillsSection() {
               transition={{ delay: categoryIndex * 0.1, duration: 0.5 }}
               className="p-6 bg-card border border-border rounded-xl"
             >
-              <h3 className="text-lg font-bold text-foreground mb-4">{category}</h3>
+              {/* H3 = keyword buckets */}
+              <h3 className="text-lg font-bold text-foreground mb-4">
+                {category}
+              </h3>
               <ul className="space-y-2">
                 {items.map((item) => (
-                  <li key={item} className="text-sm text-muted-foreground flex items-center gap-2">
+                  <li
+                    key={item}
+                    className="text-sm text-muted-foreground flex items-center gap-2"
+                  >
                     <span className="w-1.5 h-1.5 bg-primary rounded-full" />
                     {item}
                   </li>

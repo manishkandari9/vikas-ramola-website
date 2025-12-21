@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Mail } from "lucide-react"
+import { Mail, MapPin } from "lucide-react"
 
 export function ContactHeroSection() {
   return (
@@ -15,28 +15,40 @@ export function ContactHeroSection() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 border border-border mb-6"
           >
             <Mail className="w-4 h-4 text-primary" />
-            <span className="text-sm text-muted-foreground">Get In Touch</span>
+            <span className="text-sm text-muted-foreground">
+              Get In Touch
+            </span>
           </motion.div>
 
+          {/* SHORT H1 (2 WORDS) */}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-balance"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
           >
             <span className="text-foreground">Let&apos;s </span>
             <span className="text-primary">Connect</span>
           </motion.h1>
 
+          {/* SEO + GEO paragraph */}
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground max-w-3xl leading-relaxed"
           >
-            Ready to elevate your brand with professional video editing and graphic design? Reach out today for a free
-            consultation. I respond within 2-4 hours.
+            Looking for a graphic designer or video editor in Rishikesh or
+            Dehradun? Contact Vikas Ramola for professional graphic design,
+            video editing, reels, ads, and AI-powered creative services.
+            Free consultation available with a response time of 2–4 hours.
           </motion.p>
+
+          {/* GEO hint (optional but powerful) */}
+          <div className="flex items-center gap-2 mt-4 text-muted-foreground">
+            <MapPin className="w-4 h-4 text-primary" />
+            <span>Rishikesh & Dehradun, Uttarakhand</span>
+          </div>
         </div>
       </div>
     </section>

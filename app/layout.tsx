@@ -11,40 +11,58 @@ const _inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vikasramola.com"),
+  metadataBase: new URL("https://vikashramolavdo.studio"),
+
   title: {
-    default: "Vikash Chand | AI-Powered Graphic Designer & Video Editor in Rishikesh & Dehradun",
-    template: "%s | Vikash Chand - AI Creative Expert",
+    default: "Vikas Ramola | Graphic Designer & Video Editor in Rishikesh",
+    template: "%s | Vikas Ramola – Graphic Designer & Video Editor",
   },
+
   description:
-    "Vikash Chand is a professional AI-powered Graphic Designer and Video Editor in Rishikesh & Dehradun, Uttarakhand. Expert in video editing, motion graphics, social media design, and AI-enhanced creative services.",
+    "Vikas Ramola is a professional graphic designer and video editor in Rishikesh & Dehradun, India. Specializing in graphic design, video editing, reels, branding, and AI-powered creative services for businesses and creators.",
+
   keywords: [
-    "Graphic Designer in Rishikesh",
-    "Video Editor in Rishikesh",
-    "Graphic Designer in Dehradun",
-    "Video Editor in Dehradun",
-    "AI Video Editor in Rishikesh",
-    "AI Graphic Designer in Dehradun",
-    "Freelance Video Editor Rishikesh",
-    "Social Media Designer Dehradun",
-    "Vikash Chand",
-    "AI Creative Expert Uttarakhand",
+    // Core
+    "graphic designer in rishikesh",
+    "video editor in rishikesh",
+    "graphic designer in dehradun",
+    "video editor in dehradun",
+
+    // Professional intent
+    "best graphic designer in rishikesh",
+    "professional video editor dehradun",
+    "freelance graphic designer rishikesh",
+    "freelance video editor dehradun",
+
+    // AI / modern
+    "ai graphic designer india",
+    "ai video editing services india",
+
+    // Brand
+    "Vikas Ramola",
+    "Vikas Ramola Creative Studio",
   ],
-  authors: [{ name: "Vikash Chand" }],
-  creator: "Vikash Chand",
+
+  authors: [{ name: "Vikas Ramola" }],
+  creator: "Vikas Ramola",
+
   openGraph: {
-    title: "Vikash Chand | AI-Powered Graphic Designer & Video Editor",
+    title: "Vikas Ramola | Graphic Designer & Video Editor in Rishikesh",
     description:
-      "Professional AI-powered creative services in Rishikesh & Dehradun. Video editing, graphic design, and AI-enhanced content creation.",
-    type: "website",
+      "Professional graphic design and video editing services in Rishikesh & Dehradun. Branding, reels, ads, and AI-powered creative solutions.",
+    url: "https://vikashramolavdo.studio",
+    siteName: "Vikas Ramola Creative Studio",
     locale: "en_IN",
-    siteName: "Vikash Chand - AI Creative Studio",
+    type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Vikash Chand | AI-Powered Creative Studio",
-    description: "Professional AI-powered creative services in Rishikesh & Dehradun.",
+    title: "Vikas Ramola | Graphic Designer & Video Editor",
+    description:
+      "Graphic design and video editing services in Rishikesh & Dehradun by Vikas Ramola.",
   },
+
   robots: {
     index: true,
     follow: true,
@@ -56,10 +74,11 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+
   alternates: {
-    canonical: "/",
+    canonical: "https://vikashramolavdo.studio/",
   },
-  generator: "v0.app",
+
   verification: {
     google: "t2TxxFDuSHtg39AFywrj0c-Mn9yBXwLyZmLC0_Dwps0",
   },

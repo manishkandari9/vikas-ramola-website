@@ -21,7 +21,7 @@ export function AboutHeroSection() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-2xl" />
               <img
                 src="/professional-creative-designer-portrait-dark-backg.jpg"
-                alt="Vikash Chand - AI-Powered Graphic Designer and Video Editor in Rishikesh"
+                alt="Vikas Ramola - Graphic Designer and Video Editor in Rishikesh"
                 className="w-full h-full object-cover rounded-2xl"
               />
               <motion.div
@@ -48,18 +48,27 @@ export function AboutHeroSection() {
               <span className="text-sm text-muted-foreground">About Me</span>
             </div>
 
+            {/* SEO H1 */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-balance">
-              <span className="text-foreground">Namaste! I&apos;m </span>
-              <span className="text-primary">Vikash Chand</span>
+              <span className="text-foreground">Hi, I&apos;m </span>
+              <span className="text-primary">Vikas Ramola</span>
+              <br />
+              <span className="text-muted-foreground text-2xl md:text-3xl">
+                Graphic Designer & Video Editor in Rishikesh
+              </span>
             </h1>
 
+            {/* Supporting SEO text */}
             <p className="text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed">
-              AI-Powered Graphic Designer & Video Editor
+              Professional graphic designer and video editor specializing in
+              branding, reels, ads, motion graphics, and AI-powered creative
+              services for businesses and creators.
             </p>
 
+            {/* GEO signal */}
             <div className="flex items-center gap-2 text-muted-foreground">
               <MapPin className="w-5 h-5 text-primary" />
-              <span>Rishikesh & Dehradun, Uttarakhand</span>
+              <span>Rishikesh & Dehradun, Uttarakhand, India</span>
             </div>
           </motion.div>
         </div>

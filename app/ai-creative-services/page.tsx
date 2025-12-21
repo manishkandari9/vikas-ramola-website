@@ -9,27 +9,41 @@ import { AIFaqSection } from "@/components/ai-page/faq-section"
 import { AICtaSection } from "@/components/ai-page/cta-section"
 
 export const metadata: Metadata = {
-  title: "AI Creative Services | AI Video Editing & Graphic Design in Uttarakhand",
+  title: "AI Services | Video Editing & Design in Dehradun & Rishikesh",
   description:
-    "AI-powered creative services combining human creativity with artificial intelligence. Faster delivery, better quality, and cost-effective video editing and graphic design in Rishikesh & Dehradun.",
+    "AI creative services by Vikas Ramola in Dehradun and Rishikesh, India. AI-powered video editing, graphic design, reels, ads, branding, and content creation with faster delivery and better results for businesses and creators.",
   keywords: [
-    "AI Video Editing Services",
-    "AI Graphic Design Services",
-    "AI Creative Services Rishikesh",
-    "AI Prompting Services",
-    "AI Video Editor Uttarakhand",
-    "AI Enhanced Design Dehradun",
+    "ai creative services",
+    "ai video editing services",
+    "ai graphic design services",
+    "ai video editor in dehradun",
+    "ai graphic designer in rishikesh",
+    "ai creative services india",
+    "ai reel editing services",
+    "ai branding services",
+    "Vikas Ramola",
   ],
   alternates: {
-    canonical: "/ai-creative-services",
+    canonical: "https://vikashramolavdo.studio/ai-creative-services",
   },
   openGraph: {
-    title: "AI Creative Services | AI Video Editing & Graphic Design",
+    title: "AI Creative Services in Dehradun & Rishikesh | Vikas Ramola",
     description:
-      "AI-powered creative services in Rishikesh & Dehradun. Faster delivery, better quality, cost-effective solutions.",
-    url: "/ai-creative-services",
+      "Professional AI-powered video editing and graphic design services in Dehradun & Rishikesh by Vikas Ramola. Faster, smarter, and conversion-focused creative solutions.",
+    url: "https://vikashramolavdo.studio/ai-creative-services",
+    siteName: "Vikas Ramola Creative Studio",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Services | Video Editing & Design in Dehradun",
+    description:
+      "AI-powered creative services including video editing, graphic design, reels, and branding for businesses and creators in Dehradun & Rishikesh.",
   },
 }
+
+
 
 export default function AICreativeServicesPage() {
   return (

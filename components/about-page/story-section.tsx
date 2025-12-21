@@ -6,10 +6,10 @@ import { useRef } from "react"
 import { CheckCircle2, Zap, Users, Target } from "lucide-react"
 
 const highlights = [
-  { icon: Zap, text: "AI-Enhanced Workflow" },
-  { icon: Users, text: "50+ Happy Clients" },
-  { icon: Target, text: "Results-Driven" },
-  { icon: CheckCircle2, text: "Quality Guaranteed" },
+  { icon: Zap, text: "AI-Enhanced Creative Workflow" },
+  { icon: Users, text: "50+ Happy Clients Across Uttarakhand" },
+  { icon: Target, text: "Results-Driven Design & Editing" },
+  { icon: CheckCircle2, text: "Quality & Timely Delivery Guaranteed" },
 ]
 
 export function AboutStorySection() {
@@ -26,31 +26,40 @@ export function AboutStorySection() {
             transition={{ duration: 0.6 }}
             className="space-y-6 text-muted-foreground leading-relaxed"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">My Story</h2>
+            {/* SEO-STRONG H2 */}
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
+              About Vikas Ramola – Graphic Designer & Video Editor in Rishikesh
+            </h2>
 
+            {/* AEO OPENING (WHO + WHAT + WHERE) */}
             <p className="text-lg">
-              I&apos;m an AI-powered Graphic Designer and Video Editor based in Rishikesh and serving clients across
-              Dehradun and Uttarakhand. With a passion for visual storytelling and modern AI tools, I help businesses
-              and creators stand out in the digital landscape.
+              Vikas Ramola is a professional graphic designer and video editor based in
+              Rishikesh, Uttarakhand, serving businesses and creators across Dehradun
+              and India. He specializes in branding, social media creatives, reels,
+              advertisements, and AI-powered video editing solutions.
             </p>
 
             <p className="text-lg">
-              Whether you need scroll-stopping social media content, professional video editing for YouTube, or
-              eye-catching brand graphics, I combine creative expertise with cutting-edge AI technology to deliver
-              faster turnarounds and exceptional quality.
+              With a strong passion for visual storytelling, I help brands stand out
+              in today’s competitive digital space. Whether it’s scroll-stopping
+              social media designs, professional YouTube video editing, or engaging
+              promotional videos, my work focuses on clarity, creativity, and
+              conversions.
             </p>
 
             <p className="text-lg">
-              Working with local businesses, content creators, and brands, I understand the unique needs of the
-              Uttarakhand market while bringing global creative standards to every project. My AI-enhanced workflow
-              ensures you get premium quality at competitive rates.
+              By combining traditional creative skills with modern AI tools, I’m able
+              to deliver faster turnarounds without compromising on quality. This
+              AI-enhanced workflow allows businesses in Rishikesh and Dehradun to get
+              premium creative services at competitive pricing.
             </p>
 
             <p className="text-lg">
-              Over the years, I&apos;ve had the privilege of working with diverse clients ranging from small startups to
-              established businesses, helping them communicate their brand story through compelling visuals. Every
-              project is an opportunity to create something meaningful that resonates with the target audience and
-              drives real results.
+              Over the years, I’ve worked with startups, local businesses, yoga
+              retreats, and content creators across Uttarakhand. Every project is
+              approached with a deep understanding of the brand’s goals, target
+              audience, and desired results—ensuring visuals that not only look good
+              but also perform.
             </p>
           </motion.div>
 

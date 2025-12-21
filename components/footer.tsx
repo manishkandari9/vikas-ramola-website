@@ -52,7 +52,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <Link href="/about-vikash-chand" className="hover:text-foreground transition-colors">
-                  About Vikash Chand
+                  About Vikash Ramola
                 </Link>
               </li>
               <li>
@@ -104,7 +104,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Vikash Chand. All rights reserved.</p>
+          <p>© 2025 Vikash Ramola. All rights reserved.</p>
           <p>AI-Powered Creative Studio in Rishikesh & Dehradun, Uttarakhand</p>
         </div>
       </div>
