@@ -7,17 +7,26 @@ import { HomeTrustSection } from "@/components/home/trust-section"
 import { HomeCtaSection } from "@/components/home/cta-section"
 
 export const metadata: Metadata = {
-  title: "AI-Powered Graphic Designer & Video Editor in Rishikesh & Dehradun",
+  title: "AI Graphic Designer & Video Editor in Rishikesh | Vikas Ramola",
   description:
-    "Vikash Chand is a professional AI-powered Graphic Designer and Video Editor in Rishikesh & Dehradun, Uttarakhand. Expert in video editing, motion graphics, social media design, and AI-enhanced creative services for businesses and creators.",
+    "Vikas Ramola is an AI-powered graphic designer and professional video editor in Rishikesh & Dehradun, Uttarakhand. Specializing in branding, reels, ads, motion graphics, and AI-enhanced creative services for businesses, creators, and yoga retreats.",
   alternates: {
-    canonical: "/",
+    canonical: "https://yourdomain.com/",
   },
   openGraph: {
-    title: "Vikash Chand | AI-Powered Graphic Designer & Video Editor in Rishikesh & Dehradun",
+    title: "Vikas Ramola – AI Graphic Designer & Video Editor in Rishikesh",
     description:
-      "Professional AI-powered creative services in Rishikesh & Dehradun. Video editing, graphic design, and AI-enhanced content creation.",
-    url: "/",
+      "Hire Vikas Ramola, an AI-powered graphic designer & video editor in Rishikesh and Dehradun. High-converting visuals, reels, ads, and branding.",
+    url: "https://yourdomain.com/",
+    siteName: "Vikas Ramola Creative Studio",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Graphic Designer & Video Editor in Rishikesh | Vikas Ramola",
+    description:
+      "AI-powered graphic design & video editing services in Rishikesh and Dehradun by Vikas Ramola.",
   },
 }
 
