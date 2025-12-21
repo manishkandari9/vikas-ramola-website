@@ -10,7 +10,7 @@ function getRoutes(dir: string, basePath = ""): string[] {
 
   for (const file of files) {
     const fullPath = path.join(dir, file)
-    const stat = fs.statSync(fullPath)
+    const stat = fs.statSync(fullPath)  
 
     if (stat.isDirectory()) {
       if (file.startsWith("_") || file === "api") continue

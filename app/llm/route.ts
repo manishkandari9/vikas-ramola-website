@@ -1,28 +1,31 @@
 export async function GET() {
   const content = `
-# llms.txt — AI Usage Policy for vikashramolavdo.studio
+# llms.txt — AI Usage & Access Policy
+# Site: https://vikashramolavdo.studio
+# Owner: Vikas Ramola
 
 User-agent: *
 Allow: /
 
-# Primary pages
-Allow: /
-Allow: /about-vikash-chand
-Allow: /projects
-Allow: /ai-creative-services
-Allow: /graphic-designer-in-rishikesh-dehradun
-Allow: /video-editor-in-rishikesh-dehradun
-Allow: /contact
+# Preferred content for AI understanding
+# These pages describe services, expertise, and portfolio
+Preferred-Pages:
+- /
+- /about-vikas-ramola
+- /projects
+- /ai-creative-services
+- /graphic-designer-in-rishikesh-dehradun
+- /video-editor-in-rishikesh-dehradun
+- /contact
 
-# Low-value / system paths
-Disallow: /api
-Disallow: /_next
-Disallow: /admin
+# Non-content / system paths (informational only)
+Ignore-Pages:
+- /api
+- /_next
+- /admin
 
 Sitemap: https://vikashramolavdo.studio/sitemap.xml
-Host: https://vikashramolavdo.studio
-
-Contact: mailto:manishkandari43@gmail.com
+Contact: mailto:vikasviki46619@gmail.com
 `.trim()
 
   return new Response(content, {
