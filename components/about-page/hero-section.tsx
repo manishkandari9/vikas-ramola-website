@@ -30,7 +30,7 @@ export function AboutHeroSection() {
                 transition={{ delay: 0.5, duration: 0.5 }}
                 className="absolute -bottom-6 -right-6 bg-card border border-border rounded-xl p-4 shadow-xl"
               >
-                <p className="text-3xl font-bold text-primary">5+</p>
+                <p className="text-3xl font-bold text-primary">2+</p>
                 <p className="text-sm text-muted-foreground">Years Experience</p>
               </motion.div>
             </div>
