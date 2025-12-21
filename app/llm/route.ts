@@ -1,7 +1,7 @@
 export async function GET() {
   const content = `
 # llms.txt — AI Usage & Access Policy
-# Site: https://Vikasramolavdo.studio
+# Site: https://VikasRamolavdo.studio
 # Owner: Vikas Ramola
 
 User-agent: *
@@ -11,7 +11,7 @@ Allow: /
 # These pages describe services, expertise, and portfolio
 Preferred-Pages:
 - /
-- /about-vikas-ramola
+- /about-vikas-Ramola
 - /projects
 - /ai-creative-services
 - /graphic-designer-in-rishikesh-dehradun
@@ -24,7 +24,7 @@ Ignore-Pages:
 - /_next
 - /admin
 
-Sitemap: https://Vikasramolavdo.studio/sitemap.xml
+Sitemap: https://VikasRamolavdo.studio/sitemap.xml
 Contact: mailto:vikasviki46619@gmail.com
 `.trim()
 

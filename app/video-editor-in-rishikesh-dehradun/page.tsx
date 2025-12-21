@@ -38,13 +38,13 @@ export const metadata: Metadata = {
     "video editing services india",
   ],
   alternates: {
-    canonical: "https://Vikasramolavdo.studio/video-editor-in-rishikesh-dehradun",
+    canonical: "https://VikasRamolavdo.studio/video-editor-in-rishikesh-dehradun",
   },
   openGraph: {
     title: "Video Editor in Dehradun & Rishikesh | Vikas Ramola",
     description:
       "Professional AI-powered video editing services in Dehradun and Rishikesh, India. Reels, YouTube, Instagram, podcasts, ads, and event videos.",
-    url: "https://Vikasramolavdo.studio/video-editor-in-rishikesh-dehradun",
+    url: "https://VikasRamolavdo.studio/video-editor-in-rishikesh-dehradun",
     siteName: "Vikas Ramola Creative Studio",
     locale: "en_IN",
     type: "website",

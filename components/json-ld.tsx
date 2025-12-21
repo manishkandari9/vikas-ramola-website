@@ -6,16 +6,16 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
   const personSchema = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "@id": "https://vikasramola.com/#person",
+    "@id": "https://vikasRamola.com/#person",
     name: "Vikas Ramola",
     alternateName: "Vikas Ramola",
     jobTitle: "AI-Powered Graphic Designer & Video Editor",
     description:
       "Professional AI-powered Graphic Designer and Video Editor serving Rishikesh and Dehradun, Uttarakhand. Expert in video editing, motion graphics, and AI-enhanced creative services.",
-    url: "https://vikasramola.com",
+    url: "https://vikasRamola.com",
     email: "vikasviki46619@gmail.com",
     telephone: "+91-6398828373",
-    image: "https://vikasramola.com/professional-creative-designer-portrait-dark-backg.jpg",
+    image: "https://vikasRamola.com/professional-creative-designer-portrait-dark-backg.jpg",
     address: [
       {
         "@type": "PostalAddress",
@@ -47,14 +47,14 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://vikasramola.com/#business",
+    "@id": "https://vikasRamola.com/#business",
     name: "Vikas Ramola - AI Creative Studio",
     description:
       "AI-powered creative studio offering video editing, graphic design, and AI-enhanced content creation services in Rishikesh and Dehradun, Uttarakhand.",
-    url: "https://vikasramola.com",
+    url: "https://vikasRamola.com",
     telephone: "+91-6398828373",
     email: "vikasviki46619@gmail.com",
-    founder: { "@id": "https://vikasramola.com/#person" },
+    founder: { "@id": "https://vikasRamola.com/#person" },
     areaServed: [
       {
         "@type": "City",
@@ -75,18 +75,18 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
     home: {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://vikasramola.com" }],
+      itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://vikasRamola.com" }],
     },
     video: {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://vikasramola.com" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://vikasRamola.com" },
         {
           "@type": "ListItem",
           position: 2,
           name: "Video Editing Services",
-          item: "https://vikasramola.com/video-editor-in-rishikesh-dehradun",
+          item: "https://vikasRamola.com/video-editor-in-rishikesh-dehradun",
         },
       ],
     },
@@ -94,12 +94,12 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://vikasramola.com" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://vikasRamola.com" },
         {
           "@type": "ListItem",
           position: 2,
           name: "Graphic Design Services",
-          item: "https://vikasramola.com/graphic-designer-in-rishikesh-dehradun",
+          item: "https://vikasRamola.com/graphic-designer-in-rishikesh-dehradun",
         },
       ],
     },
@@ -107,12 +107,12 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://vikasramola.com" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://vikasRamola.com" },
         {
           "@type": "ListItem",
           position: 2,
           name: "AI Creative Services",
-          item: "https://vikasramola.com/ai-creative-services",
+          item: "https://vikasRamola.com/ai-creative-services",
         },
       ],
     },
@@ -120,24 +120,24 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://vikasramola.com" },
-        { "@type": "ListItem", position: 2, name: "Projects", item: "https://vikasramola.com/projects" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://vikasRamola.com" },
+        { "@type": "ListItem", position: 2, name: "Projects", item: "https://vikasRamola.com/projects" },
       ],
     },
     about: {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://vikasramola.com" },
-        { "@type": "ListItem", position: 2, name: "About", item: "https://vikasramola.com/about-Vikas-Ramola" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://vikasRamola.com" },
+        { "@type": "ListItem", position: 2, name: "About", item: "https://vikasRamola.com/about-Vikas-Ramola" },
       ],
     },
     contact: {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://vikasramola.com" },
-        { "@type": "ListItem", position: 2, name: "Contact", item: "https://vikasramola.com/contact" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://vikasRamola.com" },
+        { "@type": "ListItem", position: 2, name: "Contact", item: "https://vikasRamola.com/contact" },
       ],
     },
   }
@@ -149,7 +149,7 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
     name: "Professional Video Editing in Rishikesh & Dehradun",
     description:
       "Expert video editing services including YouTube videos, shorts, reels, talking head videos, podcast ads, product videos, event videos, motion graphics, and AI-enhanced editing.",
-    provider: { "@id": "https://vikasramola.com/#person" },
+    provider: { "@id": "https://vikasRamola.com/#person" },
     areaServed: ["Rishikesh", "Dehradun", "Uttarakhand", "India"],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -172,7 +172,7 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
     name: "Professional Graphic Design in Rishikesh & Dehradun",
     description:
       "Creative graphic design services including social media design, poster design, brand graphics, logo design, thumbnails, and AI-enhanced visuals.",
-    provider: { "@id": "https://vikasramola.com/#person" },
+    provider: { "@id": "https://vikasRamola.com/#person" },
     areaServed: ["Rishikesh", "Dehradun", "Uttarakhand", "India"],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -194,7 +194,7 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
     name: "AI-Powered Creative Services in Uttarakhand",
     description:
       "Cutting-edge AI-powered creative services combining human creativity with artificial intelligence for faster, better, and more cost-effective video editing and graphic design.",
-    provider: { "@id": "https://vikasramola.com/#person" },
+    provider: { "@id": "https://vikasRamola.com/#person" },
     areaServed: ["Rishikesh", "Dehradun", "Uttarakhand", "India"],
   }
 

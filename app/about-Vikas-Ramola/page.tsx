@@ -20,13 +20,13 @@ export const metadata: Metadata = {
     "ai video editor india",
   ],
   alternates: {
-    canonical: "https://Vikasramolavdo.studio/about-vikas-ramola",
+    canonical: "https://VikasRamolavdo.studio/about-vikas-Ramola",
   },
   openGraph: {
     title: "About Vikas Ramola | Graphic Designer & Video Editor",
     description:
       "Vikas Ramola is a professional graphic designer and video editor based in Rishikesh & Dehradun, India, specializing in branding, reels, ads, and AI-powered creative services.",
-    url: "https://Vikasramolavdo.studio/about-vikas-ramola",
+    url: "https://VikasRamolavdo.studio/about-vikas-Ramola",
     siteName: "Vikas Ramola Creative Studio",
     locale: "en_IN",
     type: "profile",
