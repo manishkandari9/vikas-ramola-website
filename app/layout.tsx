@@ -11,7 +11,7 @@ const _inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vikashramolavdo.studio"),
+  metadataBase: new URL("https://Vikasramolavdo.studio"),
 
   title: {
     default: "Vikas Ramola | Graphic Designer & Video Editor in Rishikesh",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title: "Vikas Ramola | Graphic Designer & Video Editor in Rishikesh",
     description:
       "Professional graphic design and video editing services in Rishikesh & Dehradun. Branding, reels, ads, and AI-powered creative solutions.",
-    url: "https://vikashramolavdo.studio",
+    url: "https://Vikasramolavdo.studio",
     siteName: "Vikas Ramola Creative Studio",
     locale: "en_IN",
     type: "website",
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: "https://vikashramolavdo.studio/",
+    canonical: "https://Vikasramolavdo.studio/",
   },
 
   verification: {

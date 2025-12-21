@@ -41,13 +41,13 @@ export const metadata: Metadata = {
     "video editor near me",
   ],
   alternates: {
-    canonical: "https://vikashramolavdo.studio/graphic-designer-in-rishikesh-dehradun",
+    canonical: "https://Vikasramolavdo.studio/graphic-designer-in-rishikesh-dehradun",
   },
   openGraph: {
     title: "Graphic Designer in Rishikesh & Dehradun | Vikas Ramola",
     description:
       "Professional graphic design services in Rishikesh and Dehradun including logo design, branding, social media creatives, posters, and AI-powered graphic design.",
-    url: "https://vikashramolavdo.studio/graphic-designer-in-rishikesh-dehradun",
+    url: "https://Vikasramolavdo.studio/graphic-designer-in-rishikesh-dehradun",
     siteName: "Vikas Ramola Creative Studio",
     locale: "en_IN",
     type: "website",

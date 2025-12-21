@@ -1,7 +1,7 @@
 export async function GET() {
   const content = `
 # llms.txt — AI Usage & Access Policy
-# Site: https://vikashramolavdo.studio
+# Site: https://Vikasramolavdo.studio
 # Owner: Vikas Ramola
 
 User-agent: *
@@ -24,7 +24,7 @@ Ignore-Pages:
 - /_next
 - /admin
 
-Sitemap: https://vikashramolavdo.studio/sitemap.xml
+Sitemap: https://Vikasramolavdo.studio/sitemap.xml
 Contact: mailto:vikasviki46619@gmail.com
 `.trim()
 

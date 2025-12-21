@@ -9,7 +9,7 @@ const faqs = [
   {
     question: "Who is the best video editor in Rishikesh?",
     answer:
-      "Vikash Ramola is a leading AI-powered video editor in Rishikesh, helping businesses and creators grow with high-quality, optimized video content. With years of experience and modern AI tools, he delivers exceptional video editing services tailored to your specific needs.",
+      "Vikas Ramola is a leading AI-powered video editor in Rishikesh, helping businesses and creators grow with high-quality, optimized video content. With years of experience and modern AI tools, he delivers exceptional video editing services tailored to your specific needs.",
   },
   {
     question: "What types of videos do you edit?",

@@ -139,7 +139,7 @@ export function GraphicProjectsSection() {
             >
               <img
                 src={project.image || "/placeholder.svg"}
-                alt={`${project.title} - Graphic design by Vikash Ramola in Dehradun`}
+                alt={`${project.title} - Graphic design by Vikas Ramola in Dehradun`}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300" />
@@ -234,7 +234,7 @@ export function GraphicProjectsSection() {
                 >
                   <img
                     src={selectedProject.image || "/placeholder.svg"}
-                    alt={`${selectedProject.title} - Graphic design by Vikash Ramola`}
+                    alt={`${selectedProject.title} - Graphic design by Vikas Ramola`}
                     className={`w-full h-full transition-all duration-500 ${
                       isZoomed ? "object-contain scale-150" : "object-contain"
                     }`}

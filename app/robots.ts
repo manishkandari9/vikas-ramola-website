@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://vikashramolavdo.studio/sitemap.xml",
-    host: "https://vikashramolavdo.studio",
+    sitemap: "https://Vikasramolavdo.studio/sitemap.xml",
+    host: "https://Vikasramolavdo.studio",
   }
 }

@@ -6,13 +6,16 @@ export function Footer() {
     <footer className="bg-secondary/30 border-t border-border">
       <div className="container mx-auto px-4 md:px-6 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
           {/* Brand */}
           <div>
             <Link href="/" className="text-xl font-bold text-foreground">
-              <span className="text-primary">Vikash</span> Chand
+              <span className="text-primary">Vikas</span> Ramola
             </Link>
             <p className="mt-4 text-sm text-muted-foreground">
-              AI-Powered Graphic Designer & Video Editor serving Rishikesh, Dehradun, and all of Uttarakhand.
+              AI-powered Graphic Designer & Video Editor in Rishikesh & Dehradun,
+              helping brands, creators, and businesses grow with high-converting
+              visuals, reels, ads, and branding.
             </p>
           </div>
 
@@ -26,10 +29,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/graphic-designer-in-rishikesh-dehradun"
-                  className="hover:text-foreground transition-colors"
-                >
+                <Link href="/graphic-designer-in-rishikesh-dehradun" className="hover:text-foreground transition-colors">
                   Graphic Design Services
                 </Link>
               </li>
@@ -40,7 +40,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/projects" className="hover:text-foreground transition-colors">
-                  View Projects
+                  Portfolio
                 </Link>
               </li>
             </ul>
@@ -51,8 +51,8 @@ export function Footer() {
             <h4 className="font-semibold text-foreground mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link href="/about-vikash-chand" className="hover:text-foreground transition-colors">
-                  About Vikash Ramola
+                <Link href="/about-vikas-ramola" className="hover:text-foreground transition-colors">
+                  About Vikas Ramola
                 </Link>
               </li>
               <li>
@@ -62,7 +62,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/projects" className="hover:text-foreground transition-colors">
-                  Portfolio
+                  Projects
                 </Link>
               </li>
             </ul>
@@ -75,7 +75,7 @@ export function Footer() {
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary" />
                 <a href="tel:+916398828373" className="hover:text-foreground transition-colors">
-                  +91-6398828373
+                  +91 63988 28373
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -84,6 +84,7 @@ export function Footer() {
                   href="https://wa.me/916398828373"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Contact Vikas Ramola on WhatsApp"
                   className="hover:text-foreground transition-colors"
                 >
                   WhatsApp
@@ -97,15 +98,16 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-0.5" />
-                <span>Rishikesh & Dehradun, Uttarakhand</span>
+                <span>Rishikesh & Dehradun, Uttarakhand, India</span>
               </li>
             </ul>
           </div>
+
         </div>
 
         <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Vikash Ramola. All rights reserved.</p>
-          <p>AI-Powered Creative Studio in Rishikesh & Dehradun, Uttarakhand</p>
+          <p>© 2025 Vikas Ramola. All rights reserved.</p>
+          <p>AI Creative Studio • Graphic Design & Video Editing in Rishikesh & Dehradun</p>
         </div>
       </div>
     </footer>

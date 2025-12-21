@@ -246,7 +246,7 @@ export function AIPortfolioSection() {
             >
               <img
                 src={project.image || "/placeholder.svg"}
-                alt={`${project.title} - ${project.category} by Vikash Ramola`}
+                alt={`${project.title} - ${project.category} by Vikas Ramola`}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
@@ -401,7 +401,7 @@ export function AIPortfolioSection() {
                   >
                     <img
                       src={selectedProject.image || "/placeholder.svg"}
-                      alt={`${selectedProject.title} - by Vikash Ramola`}
+                      alt={`${selectedProject.title} - by Vikas Ramola`}
                       className={`w-full h-full transition-all duration-500 ${
                         isZoomed ? "object-contain scale-150" : "object-contain"
                       }`}

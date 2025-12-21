@@ -12,7 +12,7 @@ const navItems = [
   { href: "/graphic-designer-in-rishikesh-dehradun", label: "Graphic Design" },
   { href: "/ai-creative-services", label: "AI Services" },
   { href: "/projects", label: "Projects" },
-  { href: "/about-vikash-chand", label: "About" },
+  { href: "/about-Vikas-Ramola", label: "About" },
   { href: "/contact", label: "Contact" },
 ]
 
@@ -41,7 +41,7 @@ export function Navigation() {
       <nav className="container mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
         <motion.div whileHover={{ scale: 1.02 }}>
           <Link href="/" className="text-xl md:text-2xl font-bold text-foreground">
-            <span className="text-primary">Vikash</span> Chand
+            <span className="text-primary">Vikas</span> Ramola
           </Link>
         </motion.div>
 

@@ -7,7 +7,7 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
     "@context": "https://schema.org",
     "@type": "Person",
     "@id": "https://vikasramola.com/#person",
-    name: "Vikash Ramola",
+    name: "Vikas Ramola",
     alternateName: "Vikas Ramola",
     jobTitle: "AI-Powered Graphic Designer & Video Editor",
     description:
@@ -48,7 +48,7 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": "https://vikasramola.com/#business",
-    name: "Vikash Ramola - AI Creative Studio",
+    name: "Vikas Ramola - AI Creative Studio",
     description:
       "AI-powered creative studio offering video editing, graphic design, and AI-enhanced content creation services in Rishikesh and Dehradun, Uttarakhand.",
     url: "https://vikasramola.com",
@@ -129,7 +129,7 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://vikasramola.com" },
-        { "@type": "ListItem", position: 2, name: "About", item: "https://vikasramola.com/about-vikash-chand" },
+        { "@type": "ListItem", position: 2, name: "About", item: "https://vikasramola.com/about-Vikas-Ramola" },
       ],
     },
     contact: {
@@ -207,7 +207,7 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
         name: "Who is the best video editor in Rishikesh?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Vikash Ramola is a leading AI-powered video editor in Rishikesh, helping businesses and creators grow with high-quality, optimized video content using modern AI tools and creative expertise.",
+          text: "Vikas Ramola is a leading AI-powered video editor in Rishikesh, helping businesses and creators grow with high-quality, optimized video content using modern AI tools and creative expertise.",
         },
       },
       {
@@ -223,7 +223,7 @@ export function JsonLd({ type = "home" }: JsonLdProps) {
         name: "Do you provide graphic design services in Dehradun?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes, Vikash Ramola provides professional graphic design services in Dehradun including social media design, poster design, brand graphics, and AI-enhanced creative visuals for businesses.",
+          text: "Yes, Vikas Ramola provides professional graphic design services in Dehradun including social media design, poster design, brand graphics, and AI-enhanced creative visuals for businesses.",
         },
       },
       {

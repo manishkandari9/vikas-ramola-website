@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     "Vikas Ramola",
   ],
   alternates: {
-    canonical: "https://vikashramolavdo.studio/ai-creative-services",
+    canonical: "https://Vikasramolavdo.studio/ai-creative-services",
   },
   openGraph: {
     title: "AI Creative Services in Dehradun & Rishikesh | Vikas Ramola",
     description:
       "Professional AI-powered video editing and graphic design services in Dehradun & Rishikesh by Vikas Ramola. Faster, smarter, and conversion-focused creative solutions.",
-    url: "https://vikashramolavdo.studio/ai-creative-services",
+    url: "https://Vikasramolavdo.studio/ai-creative-services",
     siteName: "Vikas Ramola Creative Studio",
     locale: "en_IN",
     type: "website",

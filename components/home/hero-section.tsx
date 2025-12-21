@@ -59,7 +59,7 @@ export function HomeHeroSection() {
             className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed text-pretty"
           >
             Helping businesses and creators in Uttarakhand grow with stunning visuals, engaging videos, and AI-enhanced
-            content that drives real results. Hi, I&apos;m Vikash Ramola.
+            content that drives real results. Hi, I&apos;m Vikas Ramola.
           </motion.p>
 
           {/* CTA Buttons */}
