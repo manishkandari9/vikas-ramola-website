@@ -9,6 +9,5 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: "https://VikasRamolavdo.studio/sitemap.xml",
-    host: "https://VikasRamolavdo.studio",
   }
 }
