@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://VikasRamolavdo.studio/sitemap.xml",
+    sitemap: "https://vikashramolavdo.studio/sitemap.xml",
   }
 }

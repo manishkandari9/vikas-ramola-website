@@ -2,7 +2,7 @@ import { MetadataRoute } from "next"
 import fs from "fs"
 import path from "path"
 
-const baseUrl = "https://VikasRamolavdo.studio"
+const baseUrl = "https://vikashramolavdo.studio"
 
 function getRoutes(dir: string, basePath = ""): string[] {
   const files = fs.readdirSync(dir)

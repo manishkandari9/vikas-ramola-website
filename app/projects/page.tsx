@@ -27,13 +27,13 @@ export const metadata: Metadata = {
     "graphic design portfolio near me",
   ],
   alternates: {
-    canonical: "https://VikasRamolavdo.studio/projects",
+    canonical: "https://vikashramolavdo.studio/projects",
   },
   openGraph: {
     title: "Projects & Portfolio | Graphic Designer & Video Editor in Rishikesh",
     description:
       "View real graphic design and video editing projects by Vikas Ramola. Branding, reels, ads, and social media work for businesses in Rishikesh, Dehradun & India.",
-    url: "https://VikasRamolavdo.studio/projects",
+    url: "https://vikashramolavdo.studio/projects",
     siteName: "Vikas Ramola Creative Studio",
     locale: "en_IN",
     type: "website",
