@@ -33,6 +33,10 @@ export const metadata: Metadata = {
     // Near me / Local intent
     "video editor near me",
     "video editing services near me",
+    "Freelancer Video Editor near me",
+    "YouTube video editor near me",
+    "youtube video editor near uttarakhand",
+
 
     // India (smooth inclusion)
     "video editing services india",

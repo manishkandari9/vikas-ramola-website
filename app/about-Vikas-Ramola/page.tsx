@@ -18,6 +18,23 @@ export const metadata: Metadata = {
     "video editor in dehradun",
     "ai graphic designer india",
     "ai video editor india",
+    "online video  editor in rishikesh dehradun",
+    "free video editor in rishikesh  dehradun",
+    "freelance video editors in Rishikesh & Dehradun vikas ramola",
+    "vikas ramola best video editor and graphic desginer",
+    "Premiere Pro video editor in rishikesh dehradun",
+    "cinematic video editor",
+    "shorts video editor in rishikesh dehradun",
+    "shorts video editor",
+    "reels video editor",
+    "content creator video editor",
+    "vlog video editor",
+    "promotional video editor",
+    "ad video editor",
+    "local video editor near me",
+    "affordable video editor in dehradun",
+    "best video editor for YouTube"
+
   ],
   alternates: {
     canonical: "https://vikashramolavdo.studio/about-vikas-Ramola",
