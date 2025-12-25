@@ -1,3 +1,5 @@
+import { NextResponse } from "next/server";
+
 export async function GET() {
   const content = `
 # llms.txt — AI Usage & Access Policy
@@ -8,17 +10,16 @@ User-agent: *
 Allow: /
 
 # Preferred content for AI understanding
-# These pages describe services, expertise, and portfolio
 Preferred-Pages:
 - /
-- /about-vikas-Ramola
+- /about-vikas-ramola
 - /projects
 - /ai-creative-services
 - /graphic-designer-in-rishikesh-dehradun
 - /video-editor-in-rishikesh-dehradun
 - /contact
 
-# Non-content / system paths (informational only)
+# Non-content / system paths
 Ignore-Pages:
 - /api
 - /_next
@@ -26,11 +27,11 @@ Ignore-Pages:
 
 Sitemap: https://vikashramolavdo.studio/sitemap.xml
 Contact: mailto:vikasviki46619@gmail.com
-`.trim()
+`.trim();
 
-  return new Response(content, {
+  return new NextResponse(content, {
     headers: {
       "Content-Type": "text/plain; charset=utf-8",
     },
-  })
+  });
 }
